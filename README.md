@@ -14,8 +14,8 @@ Original             |  Ascii
 ## Install dependencies
 ```
 python -m venv venv
-source venv/bin/activate 		# Bash/Zsh
-source venv/bin/activate.fish 	# Fish
+source venv/bin/activate        # Bash/Zsh
+source venv/bin/activate.fish   # Fish
 pip install -r requirements.txt
 ```
 
