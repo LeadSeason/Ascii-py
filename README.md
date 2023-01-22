@@ -1,3 +1,16 @@
+<h1 align="center">Ascii.py</h1>
+<p align="center">Ascii converter made in python</p>
+
+## about
+Converts Image to ascii and prints to stdout. converts colors to closest xterm256 color.
+Simple project made in a day. 
+
+## example output
+
+Original             |  Ascii
+:-------------------------:|:-------------------------:
+![](./example.png)  |  ![](./example-output.png)
+
 ## Install dependencies
 ```
 python -m venv venv
@@ -7,6 +20,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+Use a terminal with xterm256 color support for best results.
 ```
 $ python ascii.py --help
 usage: ascii.py [-h] [-c CHARS] [-s SCALE] [-b BRIGHTNESS] convert_file
@@ -16,8 +30,8 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
-  -c CHARS, --chars CHARS
-                        Characters to be used in ascii art
-  -s SCALE, --scale SCALE
-  -b BRIGHTNESS, --brightness BRIGHTNESS
+  -c CHARS, --chars CHARS                       Characters to be used in ascii art
+  -s SCALE, --scale SCALE                       Size Multiplyer. Default 0.08
+  -b BRIGHTNESS, --brightness BRIGHTNESS        Britness multipyer. Default 1.5
 ```
+
